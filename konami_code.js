@@ -14,20 +14,17 @@ const codes = [
 let index = 0
 function init() {
   document.body.addEventListener("keydown", (event) => {
-    function onKeyDownHandler(event) {
-      const keyName = event.key
+    const keyName = event.key
 
-      if (key === codes[index]) {
-        index++
-
-        if (index === codes.length) {
-          alert("You have done it!!!")
-          index = 0
+    if (key === codes[index]) {
+      index++
+      if (index === codes.length) {
+        alert("You have done it!!!")
+        index = 0
         }
       } else {
         index = 0
       }
-    }
   }
 }
 
