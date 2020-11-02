@@ -26,5 +26,7 @@ function init() {
     }
   }
 }
+
+init()
 // KeyboardEvent.key
 // KeyboardEvent()
