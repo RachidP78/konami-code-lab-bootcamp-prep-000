@@ -12,5 +12,25 @@ const codes = [
 ];
 
 function init() {
-  // your code here
+  document.body.addEventListener("keydown", (event) => {
+    let index = 0
+    function onKeyDownHandler(event) {
+      const keyName = event.key
+
+      if (key === codes[index]) {
+        index++
+
+        if (index === alphabet.length) {
+          alert("Something")
+
+          index = 0
+        }
+      } else {
+        index = 0 
+      }  
+    }
+  } 
 }
+
+// KeyboardEvent.key
+// KeyboardEvent()
