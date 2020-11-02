@@ -20,7 +20,7 @@ function init() {
       if (key === codes[index]) {
         index++
 
-        if (index === alphabet.length) {
+        if (index === codes.length) {
           alert("You have done it!!!")
           index = 0
         }
