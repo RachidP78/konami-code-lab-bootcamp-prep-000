@@ -15,9 +15,7 @@ let index = 0
 
 function init() {
   document.body.addEventListener("keydown", e => {
-    const keyName = e.key
-    
-    if (keyName === codes[index]) {
+    if (e.key === codes[index]) {
       index++
       if (index === codes.length) {
         alert("You have done it!!!")
