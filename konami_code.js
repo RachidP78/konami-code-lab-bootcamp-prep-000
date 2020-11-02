@@ -21,7 +21,7 @@ function init() {
         index++
 
         if (index === alphabet.length) {
-          alert("Something")
+          alert("You have done it!!!")
 
           index = 0
         }
