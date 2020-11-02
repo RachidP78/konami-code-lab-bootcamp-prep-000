@@ -22,7 +22,6 @@ function init() {
 
         if (index === alphabet.length) {
           alert("You have done it!!!")
-
           index = 0
         }
       } else {
